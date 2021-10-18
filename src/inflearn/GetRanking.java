@@ -10,7 +10,7 @@ public class GetRanking {
 		for(int i=0; i<n; i++) {
 			int rank = 1;
 			for(int j=0; j<n; j++) {
-				if(i != j && score[i] < score[j]) {
+				if(score[i] < score[j]) {
 					rank++;
 				}
 			}
@@ -25,7 +25,6 @@ public class GetRanking {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		int[] score = new int[n];
-		int max = 0;
 		for(int i = 0; i < n; i++) {
 			score[i] = in.nextInt();
 		}
