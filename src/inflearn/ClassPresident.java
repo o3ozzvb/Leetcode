@@ -11,7 +11,7 @@ public class ClassPresident {
 		HashMap<Character, Integer> map = new HashMap<>();
 		
 		for(char c : s.toCharArray()) {
-			map.replace(c, map.getOrDefault(c,0)+1);
+			map.put(c, map.getOrDefault(c,0)+1);
 		}
 		
 		int max = Integer.MIN_VALUE;
