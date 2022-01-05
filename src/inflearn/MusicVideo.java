@@ -34,8 +34,8 @@ public class MusicVideo {
 			}
 			
 		}
-		
 		return answer; 
+		
 	}
 	
 	public static void main(String[] args) {
