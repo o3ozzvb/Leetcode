@@ -4,17 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-class PointXY {
-	int x;
-	int y;
-
-	public PointXY(int x, int y) {
-		super();
-		this.x = x;
-		this.y = y;
-	}
-}
-
 public class PizzaDelivery {
 
 	static int n, m;
