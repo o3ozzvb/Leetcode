@@ -9,14 +9,6 @@ class Solution {
             if (nums[i - 1] < nums[i]) {
                 lastP = false;
 
-                /*
-                int tmp = nums[i];
-                nums[i] = nums[i - 1];
-                nums[i - 1] = tmp;
-                */
-
-//                pq.add(nums[i-1]);
-
                 list.sort(Comparator.naturalOrder());
 
                 for (int j = 0; j < list.size(); j++) {
